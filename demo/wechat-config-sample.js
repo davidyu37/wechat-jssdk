@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const Wechat = require('../lib');
-const MongoStore = Wechat.MongoStore;
+// const MongoStore = Wechat.MongoStore;
 const FileStore = Wechat.FileStore;
 
 const DOMAIN = 'http://your.domain.com';
